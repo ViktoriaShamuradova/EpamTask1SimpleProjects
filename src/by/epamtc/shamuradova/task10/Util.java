@@ -5,10 +5,12 @@ import by.epamtc.shamuradova.DataScanner;
 public class Util {
 
     public static boolean sequenceIsIncreasing() {
+
         return identifySeq(true, false, false);
     }
 
     public static boolean isHaveOnePairOrMoreEqualsNumbers() {
+
         return identifySeq(false, true, false);
     }
 
@@ -17,8 +19,10 @@ public class Util {
     }
 
     private static boolean identifySeq(boolean isIncreasing, boolean isPair, boolean isAlternating) {
+
         System.out.println("Enter 0 to stop");
         int previous = 0;
+
         while (true) {
             int number = DataScanner.enterIntegerFromConsole();
             if (Validation.isValid(number)) {

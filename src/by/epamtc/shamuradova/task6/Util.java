@@ -1,6 +1,7 @@
 package by.epamtc.shamuradova.task6;
 
 public class Util {
+
     private static final double MAX_LIMIT_INT = Integer.MAX_VALUE;
     private static final double MIN_LIMIT_INT = Integer.MIN_VALUE;
     private static final double MAX_LIMIT_LONG = Long.MAX_VALUE;
